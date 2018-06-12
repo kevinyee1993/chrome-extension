@@ -5,6 +5,12 @@
     <title>Bookmarklet</title>
   </head>
   <body>
-    <a href="javascript:(function(){alert('hello!')})()">Hello!!</a>
+    <a href="javascript:(function() {let script = document.createElement('script');script.src = 'bookmarklet.js';document.body.appendChild(script);})();">Hello!!</a>
+
+    <p>Hello!</p>
+    <p>Hello!</p>
+    <p>Hello!</p>
+    <p>Hello!</p>
+    <p>Hello!</p>
   </body>
 </html>
