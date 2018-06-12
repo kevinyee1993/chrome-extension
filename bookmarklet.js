@@ -6,9 +6,3 @@
       paragraphs[i].innerHTML = 'kona!';
   }
 })();
-
-(function() {
-  let script = document.createElement('script');
-  script.src = 'bookmarklet.js';
-  document.body.appendChild(script);
-})();
